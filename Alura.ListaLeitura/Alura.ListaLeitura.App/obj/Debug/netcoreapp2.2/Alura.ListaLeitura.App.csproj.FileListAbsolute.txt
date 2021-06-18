@@ -1,0 +1,15 @@
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\HTML\formulario.html
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\HTML\para-ler.html
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Repositorio\livros.csv
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Alura.ListaLeitura.App.deps.json
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Alura.ListaLeitura.App.runtimeconfig.json
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Alura.ListaLeitura.App.runtimeconfig.dev.json
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Alura.ListaLeitura.App.dll
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.2\Alura.ListaLeitura.App.pdb
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.csproj.AssemblyReference.cache
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.AssemblyInfoInputs.cache
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.AssemblyInfo.cs
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.csproj.CoreCompileInputs.cache
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.dll
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.pdb
+C:\Users\T-Gamer\Desktop\Curso ASP.NET 1\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.2\Alura.ListaLeitura.App.genruntimeconfig.cache
