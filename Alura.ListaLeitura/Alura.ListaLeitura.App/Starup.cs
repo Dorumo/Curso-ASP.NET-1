@@ -1,12 +1,5 @@
-﻿using Alura.ListaLeitura.App.Logica;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Routing;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.App
 {
@@ -14,23 +7,26 @@ namespace Alura.ListaLeitura.App
     {
         public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddRouting();
+            services.AddMvc();
         }
 
         public static void Configure(IApplicationBuilder app)
         {
-            var routeBuilder = new RouteBuilder(app);
-            routeBuilder.MapRoute("Livros/ParaLer", LivrosLogica.LivrosParaLer);
-            routeBuilder.MapRoute("Livros/Lendo", LivrosLogica.LivrosLendo);
-            routeBuilder.MapRoute("Livros/Lidos", LivrosLogica.LivrosLidos);
-            routeBuilder.MapRoute("Cadastro/NovoLivro/{nome}/{autor}", CadastroLogica.NovoLivroParaLer);
-            routeBuilder.MapRoute("Livros/Detalhes/{id:int}", LivrosLogica.ExibeDetalhes);
-            routeBuilder.MapRoute("Cadastro/NovoLivro", CadastroLogica.ExibeFormulario);
-            routeBuilder.MapRoute("Cadastro/Incluir", CadastroLogica.ProcessaFormulario);
-            var rotas = routeBuilder.Build();
+            app.UseDeveloperExceptionPage();
+            app.UseMvcWithDefaultRoute();
 
-            app.UseRouter(rotas);
+            //var routeBuilder = new RouteBuilder(app);
+            //routeBuilder.MapRoute("{controller}/{action}", RoteamentoPadrao.TratamentoPadrao);
 
+            //routeBuilder.MapRoute("Livros/ParaLer", LivrosLogica.ParaLer);
+            //routeBuilder.MapRoute("Livros/Lendo", LivrosLogica.Lendo);
+            //routeBuilder.MapRoute("Livros/Lidos", LivrosLogica.Lidos);
+            //routeBuilder.MapRoute("Livros/Detalhes/{id:int}", LivrosLogica.Detalhes);
+            //routeBuilder.MapRoute("Cadastro/NovoLivro/{nome}/{autor}", CadastroLogica.NovoLivro);
+            //routeBuilder.MapRoute("Cadastro/ExibeFormulario", CadastroLogica.ExibeFormulario);
+            //routeBuilder.MapRoute("Cadastro/Incluir", CadastroLogica.Incluir);
+            
+            //var rotas = routeBuilder.Build();
         }
     }
 }
